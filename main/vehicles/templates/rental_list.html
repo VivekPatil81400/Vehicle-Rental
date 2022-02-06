@@ -1,0 +1,9 @@
+{% for booking in bookings %}
+
+       <ul>
+           <li>
+               {{booking.customer_name}} -- {{booking.rental_date}} -- {{booking.return_date}} -- {{booking.vehicle_type}}
+           </li>
+       </ul>
+
+{% endfor %}

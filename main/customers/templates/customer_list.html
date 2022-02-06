@@ -1,0 +1,9 @@
+{% for customer in customers %}
+
+       <ul>
+           <li>
+               {{customer.customer_name}} -- {{customer.customer_email}} -- {{customer.phone_number}}
+           </li>
+       </ul>
+
+{% endfor %}
